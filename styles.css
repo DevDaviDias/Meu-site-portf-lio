@@ -1,0 +1,116 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Passion", sans-serif;
+}
+
+body{
+    background-color: rgb(243, 241, 241);
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*Estilo mdo cabeçalho*/
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header a {
+   color: rgb(143, 138, 138);
+   text-decoration: none;
+   display: inline-block;
+   transition: .2s;
+}
+header a:hover {
+    color: black;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+.botao button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: rgb(189, 182, 182);
+    border: 0;
+    border-radius: 30px;
+    transition: 0.2s;
+
+}
+
+.botao button:hover{
+    box-shadow: 0px 0px 8px rgb(139, 137, 137);
+    transform: scale(1.05);
+
+}
+div.logo img{
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+}
+/*Estilo topo do site*/
+section.sitetopo{
+    padding: 40px 4%;
+}
+
+section.sitetopo .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.sitetopo h1{
+    color: rgb(57, 55, 55);
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.sitetopo .texto h1 span{
+    color: rgb(65, 63, 63);
+}
+
+.sitetopo .texto p {
+    color: rgb(37, 35, 35);
+    margin: 40px 0;
+
+}
+.sitetopo .imagensinter img{
+    position: relative;
+    animation: flutuar 2.5s ease-in-out infinite alternate;
+
+}
+
+@keyframes flutuar{
+ 0%{
+   top:  0;
+
+ }
+ 100%{
+    top: 30px;
+ }
+}
