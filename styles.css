@@ -6,6 +6,7 @@
     font-family: "Passion", sans-serif;
 }
 
+
 body{
     background-color: rgb(243, 241, 241);
     height: 100vh;
@@ -13,6 +14,7 @@ body{
 
 .flex{
     display: flex;
+   
 }
 .interface{
     max-width: 1280px;
@@ -29,6 +31,7 @@ header > .interface{
     display: flex;
     text-align: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -72,6 +75,7 @@ div.logo img{
     height: 90px;
     width: 100px;
     border-radius: 50%;
+    
 }
 /*Estilo topo do site*/
 section.sitetopo{
@@ -82,6 +86,7 @@ section.sitetopo .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
+    flex-wrap: wrap;
 }
 
 .sitetopo h1{
@@ -99,11 +104,21 @@ section.sitetopo .flex{
     margin: 40px 0;
 
 }
+
+
+.sitetopo .texto, .sitetopo .imagensinter { 
+    flex: 1;
+    max-width: 50%;
+}
+
+
 .sitetopo .imagensinter img{
-    height: 300px;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
+
     position: relative;
     animation: flutuar 2.5s ease-in-out infinite alternate;
+   
 
 }
 
@@ -115,4 +130,10 @@ section.sitetopo .flex{
  100%{
     top: 30px;
  }
+}
+@media(max-width:572px){
+    body{
+        height: 100%;
+    }
+
 }
