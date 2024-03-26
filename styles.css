@@ -16,6 +16,14 @@ body{
     display: flex;
    
 }
+.lex{
+    display: flex;
+   
+}
+.mex{
+    display: flex;
+   
+}
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -35,7 +43,7 @@ header > .interface{
 }
 
 header a {
-   color: rgb(143, 138, 138);
+   color: rgb(75, 72, 72);
    text-decoration: none;
    display: inline-block;
    transition: .2s;
@@ -62,8 +70,17 @@ header nav ul li {
     background-color: rgb(189, 182, 182);
     border: 0;
     border-radius: 30px;
-    transition: 0.2s;
+    transition: .2s;
 
+}
+
+h2.titulo{
+    color: black;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color:rgb(143, 138, 138) ;
 }
 
 .botao button:hover{
@@ -136,4 +153,87 @@ section.sitetopo .flex{
         height: 100%;
     }
 
+}
+/*Especialidades*/
+section.especialidades{
+    padding :40px 4%;
+    color: rgb(62, 60, 60);
+
+}
+section.especialidades .lex{
+    gap: 60px;
+}
+.especialidades .especialidadebox{
+    color: rgb(62, 66, 66);
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 45px;
+    transition: 0.2s;
+}
+.especialidades .especialidadebox:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.55);
+
+}
+
+.especialidades .especialidadebox i{
+    font-size: 70px;
+    color: rgb(15, 14, 14);
+}
+.especialidades .especialidadebox h3{
+    font-size: 28px;
+    margin: 15px 0;
+
+}
+
+/*Estilo sobre*/
+section .sobre{
+    padding: 80px 40%;
+}
+.img-sobre img{
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 0 0  2px black;
+}
+.mex{
+    align-items: center;
+    gap: 60px;
+
+}
+.sobre .txt-sobre{
+    color-scheme: black;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    color: rgb(87, 83, 83);
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin-trim: 20px 0;
+    text-align: justify;
+}
+.sobre .txt-sobre .botaosocial{
+    padding: 10px;
+}
+.sobre .txt-sobre .botaosocial button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(150, 145, 145);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+.botaosocial button:hover{
+    box-shadow: 0px 0px 8px rgb(139, 137, 137);
+    transform: scale(1.05);
 }
