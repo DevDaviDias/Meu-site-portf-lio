@@ -1,5 +1,5 @@
 /*Estilo geral*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,53 +7,61 @@
 }
 
 
-body{
+body {
     background-color: rgb(243, 241, 241);
     height: 100vh;
 }
 
-.flex{
+.flex {
     display: flex;
-   
+
 }
-.lex{
+
+.lex {
     display: flex;
-   
+
 }
-.mex{
+
+.mex {
     display: flex;
-   
+
 }
-.interface{
+
+.dex {
+    display: flex;
+}
+
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-/*Estilo mdo cabeçalho*/
+/*Estilo do cabeçalho*/
 
-header{
+header {
     padding: 40px 4%;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+
 }
 
 header a {
-   color: rgb(75, 72, 72);
-   text-decoration: none;
-   display: inline-block;
-   transition: .2s;
+    color: rgb(75, 72, 72);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
 }
+
 header a:hover {
     color: black;
     transform: scale(1.05);
 }
 
-header nav ul{
+header nav ul {
     list-style-type: none;
 }
 
@@ -63,7 +71,7 @@ header nav ul li {
 
 }
 
-.botao button{
+.botao button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600px;
@@ -74,45 +82,48 @@ header nav ul li {
 
 }
 
-h2.titulo{
+h2.titulo {
     color: black;
     font-size: 38px;
     text-align: center;
 }
-h2.titulo span{
-    color:rgb(143, 138, 138) ;
+
+h2.titulo span {
+    color: rgb(143, 138, 138);
 }
 
-.botao button:hover{
+.botao button:hover,
+form .btn-enviar input:hover {
     box-shadow: 0px 0px 8px rgb(139, 137, 137);
     transform: scale(1.05);
 
 }
-div.logo img{
+
+div.logo img {
     height: 90px;
     width: 100px;
     border-radius: 50%;
-    
+
 }
+
 /*Estilo topo do site*/
-section.sitetopo{
+section.sitetopo {
     padding: 40px 4%;
 }
 
-section.sitetopo .flex{
+section.sitetopo .flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
-    flex-wrap: wrap;
 }
 
-.sitetopo h1{
+.sitetopo h1 {
     color: rgb(57, 55, 55);
     font-size: 42px;
     line-height: 40px;
 }
 
-.sitetopo .texto h1 span{
+.sitetopo .texto h1 span {
     color: rgb(65, 63, 63);
 }
 
@@ -123,47 +134,37 @@ section.sitetopo .flex{
 }
 
 
-.sitetopo .texto, .sitetopo .imagensinter { 
-    flex: 1;
-    max-width: 50%;
-}
-
-
-.sitetopo .imagensinter img{
-    max-width: 100%;
-    height: auto;
+.sitetopo .imagensinter img {
 
     position: relative;
     animation: flutuar 2.5s ease-in-out infinite alternate;
-   
+
 
 }
 
-@keyframes flutuar{
- 0%{
-   top:  0;
+@keyframes flutuar {
+    0% {
+        top: 0;
 
- }
- 100%{
-    top: 30px;
- }
-}
-@media(max-width:572px){
-    body{
-        height: 100%;
     }
 
+    100% {
+        top: 30px;
+    }
 }
+
 /*Especialidades*/
-section.especialidades{
-    padding :40px 4%;
+section.especialidades {
+    padding: 40px 4%;
     color: rgb(62, 60, 60);
 
 }
-section.especialidades .lex{
+
+section.especialidades .lex {
     gap: 60px;
 }
-.especialidades .especialidadebox{
+
+.especialidades .especialidadebox {
     color: rgb(62, 66, 66);
     padding: 40px;
     border-radius: 20px;
@@ -171,58 +172,67 @@ section.especialidades .lex{
     margin-top: 45px;
     transition: 0.2s;
 }
-.especialidades .especialidadebox:hover{
+
+.especialidades .especialidadebox:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.55);
 
 }
 
-.especialidades .especialidadebox i{
+.especialidades .especialidadebox i {
     font-size: 70px;
     color: rgb(15, 14, 14);
 }
-.especialidades .especialidadebox h3{
+
+.especialidades .especialidadebox h3 {
     font-size: 28px;
     margin: 15px 0;
 
 }
 
 /*Estilo sobre*/
-section .sobre{
+section .sobre {
     padding: 80px 40%;
 }
-.img-sobre img{
+
+.img-sobre img {
     height: 500px;
     width: 500px;
     border-radius: 40px;
-    box-shadow: 0 0  2px black;
+    box-shadow: 0 0 2px black;
 }
-.mex{
+
+.mex {
     align-items: center;
     gap: 60px;
 
 }
-.sobre .txt-sobre{
+
+.sobre .txt-sobre {
     color-scheme: black;
 }
 
-.sobre .txt-sobre h2{
+.sobre .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
 }
-.sobre .txt-sobre h2 span{
+
+.sobre .txt-sobre h2 span {
     color: rgb(87, 83, 83);
     display: block;
 }
-.sobre .txt-sobre p{
+
+.sobre .txt-sobre p {
     margin-trim: 20px 0;
     text-align: justify;
 }
-.sobre .txt-sobre .botaosocial{
+
+.sobre .txt-sobre .botaosocial {
     padding: 10px;
 }
-.sobre .txt-sobre .botaosocial button{
+
+.botaosocial button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -233,7 +243,243 @@ section .sobre{
     margin: 0 5px;
     transition: 0.2s;
 }
-.botaosocial button:hover{
+
+.botaosocial button:hover {
     box-shadow: 0px 0px 8px rgb(139, 137, 137);
     transform: scale(1.05);
+}
+
+/*ESTILO DO PORTFOLIO*/
+
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px rgb(255, 255, 255);
+}
+
+.imgport {
+    width: 360px;
+    height: 460px;
+    background-color: rgb(225, 221, 221);
+    background-size: cover;
+    background-position: 100% 0;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.dex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.imgport:hover {
+    background-position: 100% 100%;
+}
+
+.orverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: rgb(107, 103, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+
+.orverlay:hover {
+    opacity: 1;
+}
+
+/*estilo de contato*/
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form {
+    width: 100%;
+    background-color: #cdcdcd;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: rgb(179, 174, 174);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+    width: 120px;
+    background-color: rgb(123, 119, 119);
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* estilo rodapé*/
+footer {
+    padding: 40px;
+
+}
+
+footer .line-footer {
+    padding: 20px 0;
+    border
+}
+
+footer .line-footer p i {
+    color: black;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: rgb(45, 46, 46);
+
+}
+
+.vex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.borda {
+    border-top: 2px solid rgb(60, 59, 59);
+}
+
+footer img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1020px) {
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    .mex {
+        flex-direction: column-reverse;
+    }
+
+    .dex {
+        flex-direction: column;
+    }
+
+    .lex {
+        flex-direction: column-reverse;
+    }
+
+    .vex {
+        flex-direction: column-reverse;
+    }
+    h2.titulo {
+        
+        font-size: 3opx;
+        line-height: 34px;
+    
+    }
+
+    /*cabeçalho*/
+    section.sitetopo .flex {
+        gap: 40px;
+    }
+
+    .pesquisa,
+    botao {
+        display: none;
+    }
+
+    section.sitetopo {
+        padding: 20px 8%;
+    }
+
+    .sitetopo h1 {
+        font-size: 30px;
+    }
+
+    .sitetopo .imagensinter img {
+        width: 100%;
+    }
+
+    section.especialidades {
+        padding: 40px 8%;
+
+    }
+    /*sobre*/
+    section .sobre {
+        padding: 80px 8%;
+    }
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .botaosocial{
+        text-align: center;
+    }
+    .img-sobre img{
+        width: 100%;
+    }
+    /*portfolio*/
+    section.portfolio {
+        padding: 80px 8%;
+        
+    }
+    .imgport {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        
+    }
+    .dex{
+        gap: 60px;
+    }
+    /*rodape*/
+    .vex{
+        flex-direction: column;
+    }
+    footer .line-footer{
+        text-align: center;
+    }
 }
