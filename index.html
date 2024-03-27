@@ -1,156 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--google fontes-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap" rel="stylesheet">
-<!--bott strap icon-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<!--fim do boot strap-->
- <link rel="shortcut icon" href="./imagens/favicon.ico" type="./favicon.ico">
-<title>Meu Portifólio</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--google fontes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap"
+    rel="stylesheet">
+  <!--bott strap icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--fim do boot strap-->
+  <link rel="shortcut icon" href="./imagens/favicon.ico" type="./favicon.ico">
+  <script src="menu.js"defer></script>
+  <title>Meu Portifólio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header >
-        <div class="interface"> 
-         <div class="logo">
-         <a href="#"><img src="./imagens/001.jpeg" alt=""></a>
-        </div>
-  <nav class="pesquisa">
-    <ul>
-     <li><a href="#">Sobre min</a></li>
-     <li><a href="#">Meus projetos</a></li>
-     <li><a href="#">Conhecimentos</a></li>
-     <li><a href="#">Contatos e redes socias</a></li>
-    </ul>
-  </nav>
-  <div class="botao">
-       <a href="#">
-       <button>contato</button>
-    </a>
-  </div>
- </div>
-</header>
-
-<main>
-  <section class="sitetopo">
+  <header>
     <div class="interface">
-      <div class="flex">
-        <div class="texto">
-          <h1>DESBRAVANDO O MUNDO DO CÓDIGO<span>.</span></h1>
-          <p>Construindo Soluções Digitais com Criatividade e Experiência </p>
-           <div class="botao">
-            <a href="#">
-              <button>entre em contato</button>
-            </a>
-           </div>
+      <div class="logo">
+        <a href="#"><img src="./imagens/001.jpeg" alt=""></a>
+      </div>
+      <nav class="pesquisa">
+        <ul>
+          <li><a href="#">Sobre min</a></li>
+          <li><a href="#">Meus projetos</a></li>
+          <li><a href="#">Conhecimentos</a></li>
+          <li><a href="#">Contatos e redes socias</a></li>
+        </ul>
+      </nav>
+      <div class="botao">
+        <a href="#">
+          <button>contato</button>
+        </a>
+      </div>
+      <div class="btn-abrir-menu" id="btn_menu"><i class="bi bi-list"></i></div>
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
         </div>
-         <div class="imagensinter">
+        <nav>
+          <ul>
+            <li><a href="#">Sobre min</a></li>
+            <li><a href="#">Meus projetos</a></li>
+            <li><a href="#">Conhecimentos</a></li>
+            <li><a href="#">Contatos e redes socias</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="overlay-menu" id="overlay-menu"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="sitetopo">
+      <div class="interface">
+        <div class="flex">
+          <div class="texto">
+            <h1>DESBRAVANDO O MUNDO DO CÓDIGO<span>.</span></h1>
+            <p>Construindo Soluções Digitais com Criatividade e Experiência </p>
+            <div class="botao">
+              <a href="#">
+                <button>entre em contato</button>
+              </a>
+            </div>
+          </div>
+          <div class="imagensinter">
             <img src="./imagens/imgg.png" alt="">
-           </div>
-      </div>
-     </section> <!--topo do site--> 
-
-  <section class="especialidades">
-    <div class="interface">
-      <h2 class="titulo">Minhas <span>especialidades.</span></h2>
-      <div class="lex">
-        <div class="especialidadebox">
-          <i class="bi bi-link"></i>
-          <h3>Link page</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt commodi dolores atque.</p>
-        </div>
-        <div class="especialidadebox">
-          <i class="bi bi-browser-chrome"></i>
-          <h3>Sites</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt commodi dolores atque.</p>
-        </div>
-        <div class="especialidadebox">
-          <i class="bi bi-globe"></i>
-          <h3>Blogs</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt commodi dolores atque.</p>
-        </div>
-      </div>
-     </div>
-  </section><!--especialidades--> 
-
-  <section class="sobre">
-    <div class="interface">
-      <div class="mex">
-        <div class="img-sobre">
-          <img src="./imagens/imagen02.jpeg" alt="">
-
-        </div>
-        <div class="txt-sobre">
-          <h2>Muito prazer! <span>Sou o Davi Dias</span></h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, eveniet delectus dicta sapiente beatae molestias! Voluptatum laboriosam, porro omnis maxime tempora nobis. Nemo, iusto inventore officiis ratione autem quos consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio corporis dolorem quidem rem aperiam officia iste quam numquam harum libero sunt, facere delectus ipsa vel in eligendi repudiandae? Sapiente.</p>
-          <div class="botaosocial">
-            <a href="https://github.com/DevDaviDias"target="_blank"><button><i class="bi bi-github" ></i></button></a>
-            <a href="https://www.instagram.com/devdavidias?igsh=aG5tcXNtaHZnZmlw" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
-            <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
           </div>
-        </div><!--img-->
-      </div><!--flex-->
-    </div><!--interface-->
-  </section><!--sobre--> 
-
-  <section class="portfolio">
-    <div class="interface">
-      <h2 class="titulo">MEU PORTFÓLIO</h2>
-      <h2 class="especialidades"></h2>
-      <div class="dex">
-        <div class="imgport" style="background-image: url();">
-          <div class="orverlay">projeto1</div>
         </div>
-        <div class="imgport" style="background-image: url();">
-          <div class="orverlay">projeto2</div>
-        </div>
-        <div class="imgport" style="background-image: url();">
-          <div class="orverlay">projeto3</div>
-        </div>
+    </section> <!--topo do site-->
 
-      </div><!--dex-->
-    </div><!--interface-->
-  </section><!--portfolio-->
+    <section class="especialidades">
+      <div class="interface">
+        <h2 class="titulo">Minhas <span>especialidades.</span></h2>
+        <div class="lex">
+          <div class="especialidadebox">
+            <i class="bi bi-link"></i>
+            <h3>Link page</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi
+              reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt
+              commodi dolores atque.</p>
+          </div>
+          <div class="especialidadebox">
+            <i class="bi bi-browser-chrome"></i>
+            <h3>Sites</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi
+              reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt
+              commodi dolores atque.</p>
+          </div>
+          <div class="especialidadebox">
+            <i class="bi bi-globe"></i>
+            <h3>Blogs</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi
+              reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt
+              commodi dolores atque.</p>
+          </div>
+        </div>
+      </div>
+    </section><!--especialidades-->
 
-  <section class="formulario">
-    <div class="interface">
-      <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-       <form action="">
-         <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-         <input type="text" name="" id="" placeholder="Seu e-mail:" required> <input type="text" name="" id="" placeholder="Seu celular: ">
-          <textarea name="" id="" placeholder="Sua mensagem" required></textarea> 
+    <section class="sobre">
+      <div class="interface">
+        <div class="mex">
+          <div class="img-sobre">
+            <img src="./imagens/imagen02.jpeg" alt="">
+
+          </div>
+          <div class="txt-sobre">
+            <h2>Muito prazer! <span>Sou o Davi Dias</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, eveniet delectus dicta sapiente
+              beatae molestias! Voluptatum laboriosam, porro omnis maxime tempora nobis. Nemo, iusto inventore officiis
+              ratione autem quos consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio corporis dolorem quidem rem aperiam
+              officia iste quam numquam harum libero sunt, facere delectus ipsa vel in eligendi repudiandae? Sapiente.
+            </p>
+            <div class="botaosocial">
+              <a href="https://github.com/DevDaviDias" target="_blank"><button><i class="bi bi-github"></i></button></a>
+              <a href="https://www.instagram.com/devdavidias?igsh=aG5tcXNtaHZnZmlw" target="_blank"><button><i
+                    class="bi bi-instagram"></i></button></a>
+              <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+            </div>
+          </div><!--img-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--sobre-->
+
+    <section class="portfolio">
+      <div class="interface">
+        <h2 class="titulo">MEU PORTFÓLIO</h2>
+        <h2 class="especialidades"></h2>
+        <div class="dex">
+          <div class="imgport" style="background-image: url();">
+            <div class="orverlay">projeto1</div>
+          </div>
+          <div class="imgport" style="background-image: url();">
+            <div class="orverlay">projeto2</div>
+          </div>
+          <div class="imgport" style="background-image: url();">
+            <div class="orverlay">projeto3</div>
+          </div>
+
+        </div><!--dex-->
+      </div><!--interface-->
+    </section><!--portfolio-->
+
+    <section class="formulario">
+      <div class="interface">
+        <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+          <input type="text" name="" id="" placeholder="Seu e-mail:" required> <input type="text" name="" id=""
+            placeholder="Seu celular: ">
+          <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
           <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-       </form>
-    </div><!--interface-->
-  </section><!--formulario-->
-</main>
+        </form>
+      </div><!--interface-->
+    </section><!--formulario-->
+  </main>
   <footer>
-      <div class="interface"></div>
-      <div class="line-footer">
-        <div class="vex">
-          <div class="logo-footer">
-            <img src="./imagens/001.jpeg" alt="">
-          </div>
-          <div class="botaosocial">
-            <a href="https://github.com/DevDaviDias"target="_blank"><button><i class="bi bi-github" ></i></button></a>
-            <a href="https://www.instagram.com/devdavidias?igsh=aG5tcXNtaHZnZmlw" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
-            <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
-          </div>
+    <div class="interface"></div>
+    <div class="line-footer">
+      <div class="vex">
+        <div class="logo-footer">
+          <img src="./imagens/001.jpeg" alt="">
+        </div>
+        <div class="botaosocial">
+          <a href="https://github.com/DevDaviDias" target="_blank"><button><i class="bi bi-github"></i></button></a>
+          <a href="https://www.instagram.com/devdavidias?igsh=aG5tcXNtaHZnZmlw" target="_blank"><button><i
+                class="bi bi-instagram"></i></button></a>
+          <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
         </div>
       </div>
-      <div class="line-footer borda">
-        <p><i class="bi bi-envelope"></i><a href="mailto:devdavidias@gmail.com">devdavidias@gmail.com</a></p>
+    </div>
+    <div class="line-footer borda">
+      <p><i class="bi bi-envelope"></i><a href="mailto:devdavidias@gmail.com">devdavidias@gmail.com</a></p>
 
-      </div>
+    </div>
 
 
- </footer>
+  </footer>
 
 </body>
-</html> 
+
+</html>
