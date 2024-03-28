@@ -155,7 +155,7 @@ section.sitetopo .flex {
 
 /*Especialidades*/
 section.especialidades {
-    padding: 40px 4%;
+    padding: 180px 4%;
     color: rgb(62, 60, 60);
 
 }
@@ -192,7 +192,8 @@ section.especialidades .lex {
 
 /*Estilo sobre*/
 section .sobre {
-    padding: 80px 40%;
+    padding: 220px 40%;
+    margin-top: 30px;
 }
 
 .img-sobre img {
@@ -444,6 +445,7 @@ footer img {
 
     section.especialidades {
         padding: 40px 8%;
+        
 
     }
     /*sobre*/

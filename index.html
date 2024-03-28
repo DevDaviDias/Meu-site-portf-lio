@@ -20,22 +20,22 @@
 </head>
 
 <body>
-  <header>
+  <header id="interface">
     <div class="interface">
       <div class="logo">
-        <a href="#"><img src="./imagens/001.jpeg" alt=""></a>
+        <a href="#footer"><img src="./imagens/001.jpeg" alt=""></a>
       </div>
       
       <nav class="pesquisa">
         <ul>
-          <li><a href="#">Sobre min</a></li>
-          <li><a href="#">Meus projetos</a></li>
-          <li><a href="#">Conhecimentos</a></li>
-          <li><a href="#">Contatos e redes socias</a></li>
+          <li><a href="#sobre">Sobre min</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#portfolio">Conhecimentos</a></li>
+          <li><a href="#formulario">Contatos e redes socias</a></li>
         </ul>
       </nav>
       <div class="botao">
-        <a href="#">
+        <a href="#footer">
           <button>contato</button>
         </a>
       </div>
@@ -47,19 +47,21 @@
         <div class="ball"></div>
         </label>
         </div>
-       
+        
     </div>
   </header>
+ 
 
   <main>
-    <section class="sitetopo">
+  <div class="content">
+    <section class="sitetopo" id="sitetopo">
       <div class="interface">
         <div class="flex">
           <div class="texto">
             <h1>DESBRAVANDO O MUNDO DO CÓDIGO<span>.</span></h1>
             <p>Construindo Soluções Digitais com Criatividade e Experiência</p>
             <div class="botao">
-              <a href="#">
+              <a href="#footer">
                 <button>entre em contato</button>
               </a>
             </div>
@@ -70,36 +72,30 @@
         </div>
     </section> <!--topo do site-->
 
-    <section class="especialidades">
+    <section class="especialidades" id="especialidades">
       <div class="interface">
         <h2 class="titulo">Minhas <span>especialidades.</span></h2>
         <div class="lex">
           <div class="especialidadebox">
             <i class="bi bi-link"></i>
             <h3>Link page</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi
-              reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt
-              commodi dolores atque.</p>
+            <p>  Minha experiência em link pages se destaca pela habilidade de organizar e apresentar informações de forma clara e acessível. Desenvolvo páginas de links que facilitam a navegação e a descoberta de conteúdo relevante, promovendo uma experiência de usuário fluida e eficiente.</p>
           </div>
           <div class="especialidadebox">
             <i class="bi bi-browser-chrome"></i>
             <h3>Sites</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi
-              reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt
-              commodi dolores atque.</p>
+            <p>Com habilidades especializadas em desenvolvimento web, sou capaz de criar sites dinâmicos e modernos que atendem às necessidades específicas de meus clientes. Minha expertise abrange desde a concepção do design até a implementação de funcionalidades avançadas, garantindo uma presença online eficaz e impactante.</p>
           </div>
           <div class="especialidadebox">
             <i class="bi bi-globe"></i>
             <h3>Blogs</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga magnam ipsum commodi
-              reprehenderit, qui molestias, alias ad rem facilis exercitationem est non natus! Illo quaerat incidunt
-              commodi dolores atque.</p>
+            <p>   Como especialista em criação de blogs, tenho a capacidade de transformar ideias em conteúdo cativante e envolvente. Minha abordagem inclui a criação de layouts intuitivos, otimização para SEO e integração de recursos de compartilhamento social, resultando em blogs que não apenas informam, mas também inspiram e engajam os leitores.</p>
           </div>
         </div>
       </div>
     </section><!--especialidades-->
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
       <div class="interface">
         <div class="mex">
           <div class="img-sobre">
@@ -108,11 +104,8 @@
           </div>
           <div class="txt-sobre">
             <h2>Muito prazer! <span>Sou o Davi Dias</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, eveniet delectus dicta sapiente
-              beatae molestias! Voluptatum laboriosam, porro omnis maxime tempora nobis. Nemo, iusto inventore officiis
-              ratione autem quos consectetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio corporis dolorem quidem rem aperiam
-              officia iste quam numquam harum libero sunt, facere delectus ipsa vel in eligendi repudiandae? Sapiente.
+            <p>
+               Tenho 25 anos e estou cursando Análise e Desenvolvimento de Sistemas. Sou apaixonado por tecnologia e encontro grande satisfação em explorar novas soluções e desenvolver projetos inovadores. Além disso, o xadrez é uma das minhas paixões, onde exercito minha mente e aprimoro minhas habilidades estratégicas. Este é o meu espaço para compartilhar meu trabalho e minha jornada no mundo da tecnologia.
             </p>
             <div class="botaosocial">
               <a href="https://github.com/DevDaviDias" target="_blank"><button><i class="bi bi-github"></i></button></a>
@@ -125,7 +118,7 @@
       </div><!--interface-->
     </section><!--sobre-->
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="interface">
         <h2 class="titulo">MEU PORTFÓLIO</h2>
         <h2 class="especialidades"></h2>
@@ -144,7 +137,7 @@
       </div><!--interface-->
     </section><!--portfolio-->
 
-    <section class="formulario">
+    <section class="formulario" id="formulario">
       <div class="interface">
         <h2 class="titulo">FALA <span>COMIGO.</span></h2>
         <form action="">
@@ -156,13 +149,15 @@
         </form>
       </div><!--interface-->
     </section><!--formulario-->
+  </div>
   </main>
-  <footer>
+
+  <footer id="footer">
     <div class="interface"></div>
     <div class="line-footer">
       <div class="vex">
         <div class="logo-footer">
-          <img src="./imagens/001.jpeg" alt="">
+          <a href="#interface"><img src="./imagens/001.jpeg" alt="logo"><i class="bi bi-arrow-up-square-fill"></i></a>
         </div>
         <div class="botaosocial">
           <a href="https://github.com/DevDaviDias" target="_blank"><button><i class="bi bi-github"></i></button></a>
