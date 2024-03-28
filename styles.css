@@ -475,6 +475,11 @@ footer img {
     .dex{
         gap: 60px;
     }
+    .sobre .txt-sobre  {
+        margin: 30px;
+        padding: 30px;
+
+    }
     /*rodape*/
     .vex{
         flex-direction: column;
@@ -491,7 +496,7 @@ footer img {
     position: absolute;
  }
  .label{
-    background-color: rgb(82, 79, 79);
+    background-color: rgb(105, 103, 103);
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -522,11 +527,11 @@ footer img {
     color: rgb(46, 45, 45);
 }
 .fa-sun{
-    color: rgb(252, 252, 252);
+    color: rgb(191, 184, 184);
 }
 .dark {
     background-color: #ffffff; /* Cor de fundo para o tema escuro */
-    color: #ffffff; /* Cor do texto para o tema escuro */
+    color: #4c4b4b; /* Cor do texto para o tema escuro */
 }
 
 /* Especificando cores para elementos específicos */
@@ -541,7 +546,10 @@ footer img {
     color: #ffffff; /* Cor do título para o tema escuro */
 }
 .dark a {
-    color: #ffffff; /* Cor do título para o tema escuro */
+    color: #c3bbbb; /* Cor do título para o tema escuro */
+}
+.dark .borda a {
+    color: #c3bbbb; /* Cor do título para o tema escuro */
 }
 .dark h3 {
     color: #cbc7c7; /* Cor do título para o tema escuro */
@@ -551,4 +559,7 @@ footer img {
 }
 .dark .texto p {
     color: #ffffff; /* Cor do título para o tema escuro */
+}
+.dark header nav.pesquisa a:hover{
+    color: #ffffff;
 }
