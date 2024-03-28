@@ -426,11 +426,12 @@ footer img {
         gap: 40px;
     }
 
-    .pesquisa,
-    botao {
+    .pesquisa,.botao {
         display: none;
     }
-
+    .botao button {
+       display: none;
+    }
     section.sitetopo {
         padding: 20px 8%;
     }
@@ -461,7 +462,8 @@ footer img {
         text-align: center;
     }
     .img-sobre img{
-        width: 90%;
+        width: 100%;
+        
     }
     /*portfolio*/
     section.portfolio {
