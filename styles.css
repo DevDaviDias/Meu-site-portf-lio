@@ -253,7 +253,7 @@ section .sobre {
 
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px rgb(255, 255, 255);
+    
 }
 
 .imgport {
@@ -496,6 +496,7 @@ footer img {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5px;
     position: relative;
     height: 26px;
@@ -518,8 +519,36 @@ footer img {
     transform: translatex(24px);
  }
 .fa-moon{
-    color: rgb(4, 0, 89);
+    color: rgb(0, 0, 0);
 }
 .fa-sun{
-    color: rgb(175, 34, 34);
+    color: rgb(252, 252, 252);
+}
+.dark {
+    background-color: #ffffff; /* Cor de fundo para o tema escuro */
+    color: #ffffff; /* Cor do texto para o tema escuro */
+}
+
+/* Especificando cores para elementos específicos */
+.dark h1 {
+    color: #ffffff; /* Cor do título para o tema escuro */
+}
+
+.dark p {
+    color: #ffffff; /* Cor do parágrafo para o tema escuro */
+}
+.dark h2 {
+    color: #ffffff; /* Cor do título para o tema escuro */
+}
+.dark a {
+    color: #ffffff; /* Cor do título para o tema escuro */
+}
+.dark h3 {
+    color: #625e5e; /* Cor do título para o tema escuro */
+}
+.dark i {
+    color: #ffffff; /* Cor do título para o tema escuro */
+}
+.dark .texto {
+    color: #ffffff; /* Cor do título para o tema escuro */
 }
