@@ -544,11 +544,11 @@ footer img {
     color: #ffffff; /* Cor do título para o tema escuro */
 }
 .dark h3 {
-    color: #625e5e; /* Cor do título para o tema escuro */
+    color: #cbc7c7; /* Cor do título para o tema escuro */
 }
-.dark i {
-    color: #ffffff; /* Cor do título para o tema escuro */
+.dark .especialidadebox i {
+    color: #a09c9c; /* Cor do título para o tema escuro */
 }
-.dark .texto {
+.dark .texto p {
     color: #ffffff; /* Cor do título para o tema escuro */
 }
