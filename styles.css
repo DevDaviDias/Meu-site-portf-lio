@@ -639,3 +639,7 @@ footer img {
 .dark header nav.pesquisa a:hover{
     color: #ffffff;
 }
+.dark .menu-mobile{
+    background-color: #252424;
+   
+}
