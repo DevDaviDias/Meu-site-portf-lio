@@ -451,9 +451,9 @@ footer img {
     }
     .menu-mobile{
         display: block;
-        background-color: #a09c9c;
+        background-color: #615e5e;
         backdrop-filter: blur (10px);
-        position: fixed;
+        position: absolute;
         top: 77px;
         right: -100px;
         width: 70%;
@@ -464,16 +464,18 @@ footer img {
         z-index: 100;
         align-items: center;
         border-radius: 20px;
+        box-shadow: 10px ;
     }
 
     .menu-mobile.abrir{
-        right: calc( 8vh - 80px ); 
+        right: calc( 8.5vh  - 80px ); 
         visibility: visible;
        
     }
     .menu-mobile nav a{
        color: white;
-       padding: 60px 40px;
+       padding: 60px 0px;
+       padding-top: 80px;
        font-size: 16pt;
        transition: background-color 0.3s;
 
