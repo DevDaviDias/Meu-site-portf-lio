@@ -455,7 +455,7 @@ footer img {
         backdrop-filter: blur (10px);
         position: absolute;
         top: 77px;
-        left: 0;
+        left: 50px;
         width: 100%;
         height: 0;
         visibility: hidden;
@@ -472,7 +472,7 @@ footer img {
     .menu-mobile nav a{
        color: white;
        display: block;
-       padding: 20px 30px;
+       padding: 60px 30px;
        font-size: 16pt;
 
     }
