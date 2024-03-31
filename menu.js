@@ -24,3 +24,12 @@ function translateToEnglish() {
   selectElement.value = "en"; // Define o valor do menu suspenso para inglês
   selectElement.dispatchEvent(new Event('change')); // Dispara o evento de mudança para acionar a tradução
 }
+
+const menuDiv = document.getElementById('menu-mobile')
+const btnAnimar = document.getElementById('btn-menu') 
+
+menuDiv.addEventListener('click',animarmenu)
+
+function animarmenu(){
+    menuDiv.classList.toggle('abrir')
+    btnAnimar.classList.toggle('ativo')}

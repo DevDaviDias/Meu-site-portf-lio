@@ -11,7 +11,12 @@ body {
     background-color: rgb(243, 241, 241);
     height: 100vh;
 }
-
+.menu-mobile{
+    display: none;
+}
+button .udu{
+    display: none;
+}
 .flex {
     display: flex;
 
@@ -393,6 +398,18 @@ footer img {
     width: 90px;
     border-radius: 50%;
 }
+#btn-menu{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(255, 250, 250);
+    transition: .2s;
+    display: none;
+    border-radius: 20%;
+
+}
 
 @media screen and (max-width: 1020px) {
     .flex {
@@ -420,6 +437,56 @@ footer img {
         line-height: 34px;
     
     }
+    /*logo*/
+    div.logo img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    
+    }
+    /*estilização mobile*/
+
+    .udu{
+        display: block;
+    }
+    .menu-mobile{
+        display: block;
+        background-color: #a09c9c;
+        backdrop-filter: blur (10px);
+        position: absolute;
+        top: 77px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        transition: .5s;
+        overflow: hidden;
+        z-index: 100;
+        align-items: center;
+    }
+
+    .menu-mobile.abrir{
+        visibility: visible;
+        height: calc(100vh - 77px);
+    }
+    .menu-mobile nav a{
+       color: white;
+       display: block;
+       padding: 20px 30px;
+       font-size: 16pt;
+
+    }
+    .menu-mobile nav a:hover{
+        background-color: #201f1f;
+        display: block;
+
+    }
+    #btn-menu{
+        display: block;
+        color: #a09c9c;
+        background-color: #a09c9c44;
+    }
+
 
     /*cabeçalho*/
     section.sitetopo .flex {

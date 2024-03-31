@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!--fim do boot strap-->
   <link rel="shortcut icon" href="./imagens/favicon.ico" type="./favicon.ico">
-  <script src="menu.js"defer></script>
+  <script src="menu.js" defer></script>
   <title>Meu Portfólio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -25,7 +25,7 @@
       <div class="logo">
         <a href="#footer"><img src="./imagens/001.jpeg" alt=""></a>
       </div>
-      
+
       <nav class="pesquisa">
         <ul>
           <li><a href="#sobre">Sobre min</a></li>
@@ -34,122 +34,152 @@
           <li><a href="#formulario">Contatos e redes socias</a></li>
         </ul>
       </nav>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre min</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#portfolio">Conhecimentos</a></li>
+            <li><a href="#formulario">Contatos e redes socias</a></li>
+          </ul>
+        </nav>
+      </div>
+      
       <div class="botao">
         <a href="#footer">
           <button>contato</button>
         </a>
       </div>
       <div>
-        <input type="checkbox" class="checkbox" id="chk"/>
+        <input type="checkbox" class="checkbox" id="chk" />
         <label class="label" for="chk">
-        <i class="fas fa-moon"></i>
-        <i class="fas fa-sun"></i>
-        <div class="ball"></div>
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
         </label>
-        </div>
-        
+      </div>
+
+      <button class="udu" onclick="animarmenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <i class="bi bi-list"></i>
+      </button>
     </div>
   </header>
- 
+
 
   <main>
-  <div class="content">
-    <section class="sitetopo" id="sitetopo">
-      <div class="interface">
-        <div class="flex">
-          <div class="texto">
-            <h1>DESBRAVANDO O MUNDO DO CÓDIGO<span>.</span></h1>
-            <p>Construindo Soluções Digitais com Criatividade e Experiência</p>
-            <div class="botao">
-              <a href="#footer">
-                <button>entre em contato</button>
-              </a>
+    <div class="content">
+      <section class="sitetopo" id="sitetopo">
+        <div class="interface">
+          <div class="flex">
+            <div class="texto">
+              <h1>DESBRAVANDO O MUNDO DO CÓDIGO<span>.</span></h1>
+              <p>Construindo Soluções Digitais com Criatividade e Experiência</p>
+              <div class="botao">
+                <a href="#footer">
+                  <button>entre em contato</button>
+                </a>
+              </div>
+            </div>
+            <div class="imagensinter">
+              <img src="./imagens/imgg.png" alt="">
             </div>
           </div>
-          <div class="imagensinter">
-            <img src="./imagens/imgg.png" alt="">
-          </div>
-        </div>
-    </section> <!--topo do site-->
+      </section> <!--topo do site-->
 
-    <section class="especialidades" id="especialidades">
-      <div class="interface">
-        <h2 class="titulo">Minhas <span>especialidades.</span></h2>
-        <div class="lex">
-          <div class="especialidadebox">
-            <i class="bi bi-link"></i>
-            <h3>Link page</h3>
-            <p>  Minha experiência em link pages se destaca pela habilidade de organizar e apresentar informações de forma clara e acessível. Desenvolvo páginas de links que facilitam a navegação e a descoberta de conteúdo relevante, promovendo uma experiência de usuário fluida e eficiente.</p>
-          </div>
-          <div class="especialidadebox">
-            <i class="bi bi-browser-chrome"></i>
-            <h3>Sites</h3>
-            <p>Com habilidades especializadas em desenvolvimento web, sou capaz de criar sites dinâmicos e modernos que atendem às necessidades específicas de meus clientes. Minha expertise abrange desde a concepção do design até a implementação de funcionalidades avançadas, garantindo uma presença online eficaz e impactante.</p>
-          </div>
-          <div class="especialidadebox">
-            <i class="bi bi-globe"></i>
-            <h3>Blogs</h3>
-            <p>   Como especialista em criação de blogs, tenho a capacidade de transformar ideias em conteúdo cativante e envolvente. Minha abordagem inclui a criação de layouts intuitivos, otimização para SEO e integração de recursos de compartilhamento social, resultando em blogs que não apenas informam, mas também inspiram e engajam os leitores.</p>
-          </div>
-        </div>
-      </div>
-    </section><!--especialidades-->
-
-    <section class="sobre" id="sobre">
-      <div class="interface">
-        <div class="mex">
-          <div class="img-sobre">
-            <img src="./imagens/imagen02.jpeg" alt="">
-
-          </div>
-          <div class="txt-sobre">
-            <h2>Muito prazer! <span>Sou o Davi Dias</span></h2>
-            <p>
-               Tenho 25 anos e estou cursando Análise e Desenvolvimento de Sistemas. Sou apaixonado por tecnologia e encontro grande satisfação em explorar novas soluções e desenvolver projetos inovadores. Além disso, o xadrez é uma das minhas paixões, onde exercito minha mente e aprimoro minhas habilidades estratégicas. Este é o meu espaço para compartilhar meu trabalho e minha jornada no mundo da tecnologia.
-            </p>
-            <div class="botaosocial">
-              <a href="https://github.com/DevDaviDias" target="_blank"><button><i class="bi bi-github"></i></button></a>
-              <a href="https://www.instagram.com/devdavidias?igsh=aG5tcXNtaHZnZmlw" target="_blank"><button><i
-                    class="bi bi-instagram"></i></button></a>
-              <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+      <section class="especialidades" id="especialidades">
+        <div class="interface">
+          <h2 class="titulo">Minhas <span>especialidades.</span></h2>
+          <div class="lex">
+            <div class="especialidadebox">
+              <i class="bi bi-link"></i>
+              <h3>Link page</h3>
+              <p> Minha experiência em link pages se destaca pela habilidade de organizar e apresentar informações de
+                forma clara e acessível. Desenvolvo páginas de links que facilitam a navegação e a descoberta de
+                conteúdo relevante, promovendo uma experiência de usuário fluida e eficiente.</p>
             </div>
-          </div><!--img-->
-        </div><!--flex-->
-      </div><!--interface-->
-    </section><!--sobre-->
-
-    <section class="portfolio" id="portfolio">
-      <div class="interface">
-        <h2 class="titulo">MEU PORTFÓLIO</h2>
-        <h2 class="especialidades"></h2>
-        <div class="dex">
-          <div class="imgport" style="background-image: url();">
-            <div class="orverlay">projeto1</div>
+            <div class="especialidadebox">
+              <i class="bi bi-browser-chrome"></i>
+              <h3>Sites</h3>
+              <p>Com habilidades especializadas em desenvolvimento web, sou capaz de criar sites dinâmicos e modernos
+                que atendem às necessidades específicas de meus clientes. Minha expertise abrange desde a concepção do
+                design até a implementação de funcionalidades avançadas, garantindo uma presença online eficaz e
+                impactante.</p>
+            </div>
+            <div class="especialidadebox">
+              <i class="bi bi-globe"></i>
+              <h3>Blogs</h3>
+              <p> Como especialista em criação de blogs, tenho a capacidade de transformar ideias em conteúdo cativante
+                e envolvente. Minha abordagem inclui a criação de layouts intuitivos, otimização para SEO e integração
+                de recursos de compartilhamento social, resultando em blogs que não apenas informam, mas também inspiram
+                e engajam os leitores.</p>
+            </div>
           </div>
-          <div class="imgport" style="background-image: url();">
-            <div class="orverlay">projeto2</div>
-          </div>
-          <div class="imgport" style="background-image: url();">
-            <div class="orverlay">projeto3</div>
-          </div>
+        </div>
+      </section><!--especialidades-->
 
-        </div><!--dex-->
-      </div><!--interface-->
-    </section><!--portfolio-->
+      <section class="sobre" id="sobre">
+        <div class="interface">
+          <div class="mex">
+            <div class="img-sobre">
+              <img src="./imagens/imagen02.jpeg" alt="">
 
-    <section class="formulario" id="formulario">
-      <div class="interface">
-        <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-        <form action="">
-          <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-          <input type="text" name="" id="" placeholder="Seu e-mail:" required> <input type="text" name="" id=""
-            placeholder="Seu celular: ">
-          <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-        </form>
-      </div><!--interface-->
-    </section><!--formulario-->
-  </div>
+            </div>
+            <div class="txt-sobre">
+              <h2>Muito prazer! <span>Sou o Davi Dias</span></h2>
+              <p>
+                Tenho 25 anos e estou cursando Análise e Desenvolvimento de Sistemas. Sou apaixonado por tecnologia e
+                encontro grande satisfação em explorar novas soluções e desenvolver projetos inovadores. Além disso, o
+                xadrez é uma das minhas paixões, onde exercito minha mente e aprimoro minhas habilidades estratégicas.
+                Este é o meu espaço para compartilhar meu trabalho e minha jornada no mundo da tecnologia.
+              </p>
+              <div class="botaosocial">
+                <a href="https://github.com/DevDaviDias" target="_blank"><button><i
+                      class="bi bi-github"></i></button></a>
+                <a href="https://www.instagram.com/devdavidias?igsh=aG5tcXNtaHZnZmlw" target="_blank"><button><i
+                      class="bi bi-instagram"></i></button></a>
+                <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+              </div>
+            </div><!--img-->
+          </div><!--flex-->
+        </div><!--interface-->
+      </section><!--sobre-->
+
+      <section class="portfolio" id="portfolio">
+        <div class="interface">
+          <h2 class="titulo">MEU PORTFÓLIO</h2>
+          <h2 class="especialidades"></h2>
+          <div class="dex">
+            <div class="imgport" style="background-image: url();">
+              <div class="orverlay">projeto1</div>
+            </div>
+            <div class="imgport" style="background-image: url();">
+              <div class="orverlay">projeto2</div>
+            </div>
+            <div class="imgport" style="background-image: url();">
+              <div class="orverlay">projeto3</div>
+            </div>
+
+          </div><!--dex-->
+        </div><!--interface-->
+      </section><!--portfolio-->
+
+      <section class="formulario" id="formulario">
+        <div class="interface">
+          <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+          <form action="">
+            <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+            <input type="text" name="" id="" placeholder="Seu e-mail:" required> <input type="text" name="" id=""
+              placeholder="Seu celular: ">
+            <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+          </form>
+        </div><!--interface-->
+      </section><!--formulario-->
+    </div>
   </main>
 
   <footer id="footer">
