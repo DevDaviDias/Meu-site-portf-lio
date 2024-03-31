@@ -455,19 +455,20 @@ footer img {
         position: absolute;
         top: 77px;
         right: 20px;
-        width: 70%;
+        width: 60%;
         height: 100vh;
         visibility: hidden;
         transition: .4s;
         overflow: hidden;
-        z-index: 100;
+        transition: right 0.4s ease-in-out; 
+        z-index: 1;
         align-items: center;
         border-radius: 10px;
         box-shadow: 10px ;
     }
 
     .menu-mobile.abrir{
-        right: calc( 6vh  - 65px ); 
+     
         visibility: visible;
        
     }
@@ -476,7 +477,7 @@ footer img {
        padding: 60px 0px;
        padding-top: 80px;
        font-size: 16pt;
-       transition: background-color 0.3s;
+       transition: background-color 0.4s ease;
 
 
     }
