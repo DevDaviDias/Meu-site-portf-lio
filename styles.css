@@ -453,27 +453,30 @@ footer img {
         display: block;
         background-color: #a09c9c;
         backdrop-filter: blur (10px);
-        position: absolute;
+        position: fixed;
         top: 77px;
-        left: 50px;
-        width: 100%;
-        height: 0;
+        right: -100px;
+        width: 70%;
+        height: 100vh;
         visibility: hidden;
-        transition: .5s;
+        transition: .4s;
         overflow: hidden;
         z-index: 100;
         align-items: center;
+        border-radius: 20px;
     }
 
     .menu-mobile.abrir{
+        right: calc( 8vh - 80px ); 
         visibility: visible;
-        height: calc(100vh - 77px);
+       
     }
     .menu-mobile nav a{
        color: white;
-       display: block;
-       padding: 60px 30px;
+       padding: 60px 40px;
        font-size: 16pt;
+       transition: background-color 0.3s;
+
 
     }
     .menu-mobile nav a:hover{
