@@ -33,3 +33,9 @@ menuDiv.addEventListener('click',animarmenu)
 function animarmenu(){
     menuDiv.classList.toggle('abrir')
     btnAnimar.classList.toggle('ativo')}
+
+  // Função para exibir a mensagem de sucesso
+  function exibirMensagem() {
+    document.getElementById("mensagem-enviada").style.display = "block";
+}
+

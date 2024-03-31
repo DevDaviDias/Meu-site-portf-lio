@@ -17,6 +17,9 @@ body {
 button .udu{
     display: none;
 }
+.mensagem-enviada{
+    display: none;
+}
 .flex {
     display: flex;
 
