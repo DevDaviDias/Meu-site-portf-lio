@@ -371,11 +371,10 @@ footer {
 
 footer .line-footer {
     padding: 20px 0;
-    border
+    border-radius: 1px;
 }
 
 footer .line-footer p i {
-    color: ;
     font-size: 22px;
 }
 
@@ -455,7 +454,7 @@ footer img {
         backdrop-filter: blur (10px);
         position: absolute;
         top: 77px;
-        right: -100px;
+        right: 20px;
         width: 70%;
         height: 100vh;
         visibility: hidden;
@@ -463,12 +462,12 @@ footer img {
         overflow: hidden;
         z-index: 100;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 10px;
         box-shadow: 10px ;
     }
 
     .menu-mobile.abrir{
-        right: calc( 8.5vh  - 80px ); 
+        right: calc( 6vh  - 65px ); 
         visibility: visible;
        
     }
