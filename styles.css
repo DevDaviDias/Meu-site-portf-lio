@@ -463,10 +463,10 @@ footer img {
         top: 125px;
         right: 20px;
         width: 60%;
-        height: 100vh;
+        height: 50vh;
         visibility: hidden;
         transition: .4s;
-        overflow: hidden;
+        
         transition: right 0.4s ease-in-out; 
         z-index: 1;
         align-items: center;
@@ -481,8 +481,8 @@ footer img {
     }
     .menu-mobile nav a{
        color: white;
-       padding: 60px 0px;
-       padding-top: 80px;
+       padding: 70px 0px;
+       padding-top: 20px;
        font-size: 16pt;
        transition: background-color 0.4s ease;
 
@@ -490,13 +490,13 @@ footer img {
     }
     .menu-mobile nav a:hover{
         background-color: #b3abab;
-        border-radius: 20px;
+        border-radius: 10px;
         display: block;
 
     }
     #btn-menu{
         display: block;
-        color: #a09c9c;
+        color: #545252;
         background-color: #a09c9c44;
     }
 
