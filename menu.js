@@ -39,3 +39,11 @@ function animarmenu(){
     document.getElementById("mensagem-enviada").style.display = "block";
 }
 
+//alert("Seu formulário foi enviado com sucesso
+
+document.getElementById("formulario").addEventListener("submit", function(event){
+    event.preventDefault(); // Evita que o formulário seja enviado normalmente
+    alert("Seu formulário foi enviado com sucesso!"); // Exibe o alerta
+    // Você pode adicionar aqui qualquer outra lógica que precise ser executada após o envio do formulário
+    document.getElementById("formulario").reset(); // Limpa os campos do formulário após o envio
+  });

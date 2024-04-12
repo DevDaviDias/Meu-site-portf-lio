@@ -14,6 +14,7 @@ body {
 .menu-mobile{
     display: none;
 }
+
 button .udu{
     display: none;
 }
@@ -414,6 +415,8 @@ footer img {
 }
 
 @media screen and (max-width: 1020px) {
+
+    
     .flex {
         flex-direction: column-reverse;
     }
@@ -450,13 +453,14 @@ footer img {
 
     .udu{
         display: block;
+         margin-top: 15px;
     }
     .menu-mobile{
         display: block;
         background-color: #615e5e;
         backdrop-filter: blur (10px);
         position: absolute;
-        top: 77px;
+        top: 125px;
         right: 20px;
         width: 60%;
         height: 100vh;
@@ -485,7 +489,8 @@ footer img {
 
     }
     .menu-mobile nav a:hover{
-        background-color: #201f1f;
+        background-color: #b3abab;
+        border-radius: 20px;
         display: block;
 
     }
@@ -495,6 +500,8 @@ footer img {
         background-color: #a09c9c44;
     }
 
+     
+    
 
     /*cabeçalho*/
     section.sitetopo .flex {
@@ -585,8 +592,8 @@ footer img {
     align-items: center;
     padding: 5px;
     position: relative;
-    height: 26px;
-    width: 50px;
+    height: 20px;
+    width: 40px;
     transform: scale(1.5);
  }
  .label.ball{
@@ -595,8 +602,8 @@ footer img {
     position: absolute;
     top: 2px;
     left: 2px;
-    height: 22px;
-    width: 22px;
+    height: 2px;
+    width: 2px;
 
     transform: translatex(0px);
     transition: transform 0.2s linear;
@@ -605,14 +612,14 @@ footer img {
     transform: translatex(24px);
  }
 .fa-moon{
-    color: rgb(46, 45, 45);
+    color: rgb(45, 45, 45);
 }
 .fa-sun{
-    color: rgb(191, 184, 184);
+    color: #616060;
 }
 .dark {
     background-color: #ffffff; /* Cor de fundo para o tema escuro */
-    color: #4c4b4b; /* Cor do texto para o tema escuro */
+    color: #797575; /* Cor do texto para o tema escuro */
 }
 
 /* Especificando cores para elementos específicos */
@@ -648,3 +655,14 @@ footer img {
     background-color: #252424;
    
 }
+.dark .fa-sun{
+    color: #fffdfd;
+   
+}
+
+.dark .fa-moon{
+    color: rgb(110, 109, 109);
+   
+}
+
+
