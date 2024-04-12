@@ -466,7 +466,6 @@ footer img {
         height: 50vh;
         visibility: hidden;
         transition: .4s;
-        
         transition: right 0.4s ease-in-out; 
         z-index: 1;
         align-items: center;
@@ -481,9 +480,9 @@ footer img {
     }
     .menu-mobile nav a{
        color: white;
-       padding: 70px 0px;
-       padding-top: 20px;
-       font-size: 16pt;
+       padding: 80px 20px;
+       padding-top: 25px;
+       font-size: 12pt;
        transition: background-color 0.4s ease;
 
 
