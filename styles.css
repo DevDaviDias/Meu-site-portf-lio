@@ -414,7 +414,7 @@ footer img {
 
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1220px) {
 
     
     .flex {
@@ -480,7 +480,7 @@ footer img {
     }
     .menu-mobile nav a{
        color: white;
-       padding: 80px 20px;
+       padding: 50px 10px;
        padding-top: 25px;
        font-size: 12pt;
        transition: background-color 0.4s ease;
