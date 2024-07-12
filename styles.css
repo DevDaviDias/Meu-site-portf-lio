@@ -45,6 +45,10 @@ button .udu{
     margin: 0 auto;
 }
 
+.link-img{
+    text-decoration: none;
+    color: #fffdfd;
+}
 /*Estilo do cabeçalho*/
 
 header {
