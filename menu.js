@@ -18,12 +18,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-type = "text/javascript" >
-    function translateToEnglish() {
-        var selectElement = document.querySelector(".goog-te-combo");
-        selectElement.value = "en"; // Define o valor do menu suspenso para inglês
-        selectElement.dispatchEvent(new Event('change')); // Dispara o evento de mudança para acionar a tradução
-    }
 
 const menuDiv = document.getElementById('menu-mobile')
 const btnAnimar = document.getElementById('btn-menu')
