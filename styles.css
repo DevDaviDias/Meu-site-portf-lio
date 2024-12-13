@@ -11,16 +11,19 @@ body {
     background-color: rgb(243, 241, 241);
     height: 100dvh;
 }
-.menu-mobile{
+
+.menu-mobile {
     display: none;
 }
 
-button .udu{
+button .udu {
     display: none;
 }
-.mensagem-enviada{
+
+.mensagem-enviada {
     display: none;
 }
+
 .flex {
     display: flex;
 
@@ -45,10 +48,11 @@ button .udu{
     margin: 0 auto;
 }
 
-.link-img{
+.link-img {
     text-decoration: none;
     color: #fffdfd;
 }
+
 /*Estilo do cabeçalho*/
 
 header {
@@ -267,7 +271,7 @@ section .sobre {
 
 section.portfolio {
     padding: 80px 4%;
-    
+
 }
 
 .imgport {
@@ -405,7 +409,8 @@ footer img {
     width: 90px;
     border-radius: 50%;
 }
-#btn-menu{
+
+#btn-menu {
     background: transparent;
     width: 50px;
     height: 50px;
@@ -420,7 +425,7 @@ footer img {
 
 @media screen and (max-width: 1220px) {
 
-    
+
     .flex {
         flex-direction: column-reverse;
     }
@@ -440,26 +445,30 @@ footer img {
     .vex {
         flex-direction: column-reverse;
     }
+
     h2.titulo {
-        
+
         font-size: 3opx;
         line-height: 34px;
-    
+
     }
+
     /*logo*/
     div.logo img {
         height: 80px;
         width: 80px;
         border-radius: 50%;
-    
+
     }
+
     /*estilização mobile*/
 
-    .udu{
+    .udu {
         display: block;
-         margin-top: 15px;
+        margin-top: 15px;
     }
-    .menu-mobile{
+
+    .menu-mobile {
         display: block;
         background-color: #615e5e;
         backdrop-filter: blur (10px);
@@ -470,53 +479,59 @@ footer img {
         height: 50vh;
         visibility: hidden;
         transition: .4s;
-        transition: right 0.4s ease-in-out; 
+        transition: right 0.4s ease-in-out;
         z-index: 1;
         align-items: center;
         border-radius: 10px;
-        box-shadow: 10px ;
+        box-shadow: 10px;
     }
 
-    .menu-mobile.abrir{
-     
+    .menu-mobile.abrir {
+
         visibility: visible;
-       
+
     }
-    .menu-mobile nav a{
-       color: white;
-       padding: 50px 10px;
-       padding-top: 30px;
-       font-size: 12pt;
-       transition: background-color 0.4s ease;
+
+    .menu-mobile nav a {
+        color: white;
+        padding: 50px 10px;
+        padding-top: 30px;
+        font-size: 12pt;
+        transition: background-color 0.4s ease;
 
 
     }
-    .menu-mobile nav a:hover{
+
+    .menu-mobile nav a:hover {
         background-color: #b3abab;
         border-radius: 10px;
         display: block;
 
     }
-    #btn-menu{
+
+    #btn-menu {
         display: block;
         color: #545252;
         background-color: #a09c9c44;
     }
 
-     
-    
+
+
 
     /*cabeçalho*/
     section.sitetopo .flex {
         gap: 40px;
     }
 
-    .pesquisa,.botao {
+    .pesquisa,
+    .botao {
         display: none;
     }
+
     .botao button {
-       display: none;
+        display: none;
     }
+
     section.sitetopo {
         padding: 20px 8%;
     }
@@ -531,63 +546,76 @@ footer img {
 
     section.especialidades {
         padding: 40px 8%;
-        
+
 
     }
+
     /*sobre*/
     section .sobre {
         padding: 80px 8%;
     }
+
     .sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 35px;
         text-align: center;
     }
-    .botaosocial{
+
+    .botaosocial {
         text-align: center;
     }
-    .img-sobre img{
+
+    .img-sobre img {
         height: 400px;
         width: 90%;
-        
-        
-        
+
+
+
     }
+
     /*portfolio*/
     section.portfolio {
         padding: 80px 8%;
-        
+
     }
+
     .imgport {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
-        
+
     }
-    .dex{
+
+    .dex {
         gap: 60px;
     }
-    .sobre .txt-sobre  {
+
+    .sobre .txt-sobre {
         margin: 30px;
         padding: 30px;
 
     }
+
     /*rodape*/
-    .vex{
+    .vex {
         flex-direction: column;
     }
-    footer .line-footer{
+
+    footer .line-footer {
         text-align: center;
     }
 }
- body.dark{
+
+body.dark {
     background: rgb(32, 31, 31);
- }
- .checkbox{
+}
+
+.checkbox {
     opacity: 0;
     position: absolute;
- }
- .label{
+}
+
+.label {
     background-color: rgb(105, 103, 103);
     border-radius: 50px;
     cursor: pointer;
@@ -599,8 +627,9 @@ footer img {
     height: 20px;
     width: 40px;
     transform: scale(1.5);
- }
- .label.ball{
+}
+
+.label.ball {
     background-color: white;
     border-radius: 50%;
     position: absolute;
@@ -611,62 +640,83 @@ footer img {
 
     transform: translatex(0px);
     transition: transform 0.2s linear;
- }
- .checkbox:checked + .label .ball{
+}
+
+.checkbox:checked+.label .ball {
     transform: translatex(24px);
- }
-.fa-moon{
+}
+
+.fa-moon {
     color: rgb(45, 45, 45);
 }
-.fa-sun{
+
+.fa-sun {
     color: #616060;
 }
+
 .dark {
-    background-color: #ffffff; /* Cor de fundo para o tema escuro */
-    color: #797575; /* Cor do texto para o tema escuro */
+    background-color: #ffffff;
+    /* Cor de fundo para o tema escuro */
+    color: #797575;
+    /* Cor do texto para o tema escuro */
 }
 
 /* Especificando cores para elementos específicos */
 .dark h1 {
-    color: #ffffff; /* Cor do título para o tema escuro */
+    color: #ffffff;
+    /* Cor do título para o tema escuro */
 }
 
 .dark p {
-    color: #ffffff; /* Cor do parágrafo para o tema escuro */
+    color: #ffffff;
+    /* Cor do parágrafo para o tema escuro */
 }
+
 .dark h2 {
-    color: #ffffff; /* Cor do título para o tema escuro */
+    color: #ffffff;
+    /* Cor do título para o tema escuro */
 }
+
 .dark a {
-    color: #c3bbbb; /* Cor do título para o tema escuro */
+    color: #c3bbbb;
+    /* Cor do título para o tema escuro */
 }
+
 .dark .borda a {
-    color: #c3bbbb; /* Cor do título para o tema escuro */
+    color: #c3bbbb;
+    /* Cor do título para o tema escuro */
 }
+
 .dark h3 {
-    color: #cbc7c7; /* Cor do título para o tema escuro */
+    color: #cbc7c7;
+    /* Cor do título para o tema escuro */
 }
+
 .dark .especialidadebox i {
-    color: #a09c9c; /* Cor do título para o tema escuro */
+    color: #a09c9c;
+    /* Cor do título para o tema escuro */
 }
+
 .dark .texto p {
-    color: #ffffff; /* Cor do título para o tema escuro */
+    color: #ffffff;
+    /* Cor do título para o tema escuro */
 }
-.dark header nav.pesquisa a:hover{
+
+.dark header nav.pesquisa a:hover {
     color: #ffffff;
 }
-.dark .menu-mobile{
+
+.dark .menu-mobile {
     background-color: #252424;
-   
+
 }
-.dark .fa-sun{
+
+.dark .fa-sun {
     color: #fffdfd;
-   
+
 }
 
-.dark .fa-moon{
+.dark .fa-moon {
     color: rgb(110, 109, 109);
-   
+
 }
-
-
